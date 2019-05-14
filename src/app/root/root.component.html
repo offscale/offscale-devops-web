@@ -1,0 +1,52 @@
+<header class="docs-header-background">
+  <div class="docs-header-section">
+    <div class="docs-header-headline">
+      <h1 class="mat-h1">DevOps. Open-source.</h1>
+      <h2>Build, test, deploy. Pipelines.</h2>
+    </div>
+    <!--
+    <div class="docs-header-start">
+      <a mat-raised-button class="docs-button" routerLink="/guide/getting-started">Get started</a>
+    </div>
+    -->
+  </div>
+</header>
+
+<div style="padding: 30px 5px 0 5px; width: 100%" fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="10px">
+  <mat-card fxFlex="49%" class="provision" fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="10px">
+    <mat-card-title fxFlex="100">Provision node</mat-card-title>
+    <mat-card-content fxFlex="100" fxLayout="row wrap">
+      <div fxFlex="100">Developer machine, any of 53+ different public and private clouds</div>
+      <div fxFlex="100" fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="10px">
+        <mat-card class="provision-item" fxFlex>
+          <mat-card-title>Offstrategy</mat-card-title>
+          <mat-card-content>Python package which wraps Apache Libcloud to provision nodes from JSON files
+          </mat-card-content>
+        </mat-card>
+        <mat-card class="provision-item" fxFlex>
+          <mat-card-title>Offswitch</mat-card-title>
+          <mat-card-content>Python package which wraps Apache Libcloud to deprovision nodes from JSON files
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card fxFlex="49%" class="bootstrap" fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="10px">
+    <mat-card-title>Bootstrap node</mat-card-title>
+    <mat-card-content fxLayout="row wrap">
+      <div fxFlex="100">Developer machine, Windows, Linux, Mac, Docker</div>
+      <div fxFlex="100" fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="10px">
+        <mat-card class="bootstrap-item" fxFlex>
+          <mat-card-title>Offsetup</mat-card-title>
+          <mat-card-content>Rust library & CLI for install dependencies from YAML file.</mat-card-content>
+        </mat-card>
+        <mat-card class="bootstrap-item" fxFlex>
+          <mat-card-title>Offregister</mat-card-title>
+          <mat-card-content>Python package which wraps Fabric to SSH nodes, controlled with JSON files
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
